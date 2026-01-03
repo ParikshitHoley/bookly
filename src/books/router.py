@@ -1,5 +1,4 @@
 from fastapi import APIRouter, HTTPException, status, Depends
-from src.books.book_data import books
 from src.books.schemas import bookModel, bookCreateModel, bookUpdateModel
 from typing import List
 from datetime import date
